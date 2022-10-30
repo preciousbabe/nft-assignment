@@ -1,0 +1,191 @@
+header{
+    padding-block: 2rem;
+}
+.btn-custome a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    height:30px;
+    margin: -.5rem 1rem 0 0;
+    background: transparent;
+}
+.logo-text p{
+    background: linear-gradient(#cc326e,#29245a);
+    color: transparent;
+    font-size:xx-large;
+    -webkit-background-clip:text;
+
+}
+span{
+   background: linear-gradient(#ff7641,#e0b48d);
+    color: transparent;
+    -webkit-background-clip:text;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    color: whitesmoke;
+  }
+i{
+    color: #cc326e;
+    font-size: large;
+}
+button{
+    outline: none;
+    border: none;
+}
+#about{
+    padding-block: 3rem;
+    background-color: #171821;
+}
+#about p{
+    margin: 0 auto;
+    line-height: 1.6rem;
+    letter-spacing: 0.05em;
+}
+img{
+    width:70%;
+    border-radius: 10px;
+    background: linear-gradient(#cc326e,#29245a);
+}
+header{
+    background-color: #171821;
+}
+.nav-item a:hover{
+    color: #cc326e;
+    text-decoration: underline;
+}
+.nav-item a{
+    color: white;
+}
+.btn-custom{
+    background-color:transparent;
+    color: #cc326e;
+    border: 1px solid #cc326e;
+    outline: none;
+    border-radius: 5px;
+    padding: .5rem;
+    margin-right: 1rem;
+}
+.btn-custom:hover{
+    background: linear-gradient(#cc326e,#29245a);
+    color: black;
+    border: none;
+}
+.btn-custome{
+    background: linear-gradient(#cc326e,#29245a);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: .7rem;
+}
+.btn-custome:hover{
+    background: transparent;
+    color: #cc326e;
+    border: 1px solid #cc326e;
+}
+#about a.btn-custom{
+   margin:4rem 40%;
+}
+a{
+    text-decoration: none;
+}
+.top-seller{
+    background-color: #171821;
+    padding:2rem;
+}
+.top-seller-title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 40px;
+}
+figure img{
+    height: 3rem;
+    width: 3rem;
+}
+.top-seller-title ion-icon{
+    margin-left: 10px;
+}
+.top-seller-list{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+.top-seller-item{
+    background-color: #1c1c1f;
+    padding: 10px;
+    border-radius: 8px;
+}
+.top-seller-card{
+    position: relative;
+    padding: 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgb(78, 73, 73);
+    border-radius: 4px;
+}
+.top-seller-card::before,
+.top-seller-card::after{
+    content:"";
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    background: grey;
+    transition: silver;
+}
+.top-seller-card::before{
+    width: 2px;
+    height: 37px;
+}
+.top-seller-card::after{
+    width: 37px;
+    height: 2px;
+}
+.top-seller .card-number{
+    position: absolute;
+    top:-8px;
+    right:-8px;
+    background-color: #38383d;
+    font-size: x-large;
+    font-weight:700;
+    color: silver;
+    padding: 5px 10px;
+    border-top-right-radius: 10px;
+    border: 2px solid #171821;
+}
+.top-seller .card-title{
+    color: lightcyan;
+    text-decoration: none;
+}
+.top-seller .card-content data{
+    color: lightcyan;
+}
+ul{
+    list-style-type: none;
+}
+.footer{
+    background-color: #171821;
+    color: #fff;
+}
+.footer a{
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+}
+.footer a:hover{
+    color: #ff7641;
+}
+@media(min-width: 576){
+.lead{
+    font-size: smaller;
+}
+}
